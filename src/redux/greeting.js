@@ -5,8 +5,8 @@ export const fetchMessage = createAsyncThunk(
   async () => {
     const message = await fetch('http://localhost:3000/api/v1/greetings');
     const res = await message.json();
-    return await res.message;
-  }
+    return res.message;
+  },
 );
 
 export const greetingSlice = createSlice({
@@ -16,12 +16,14 @@ export const greetingSlice = createSlice({
   },
   reducers: {
     getMessage: (state) => {
-      state.message = '';
+      // eslint-disable-next-line no-param-reassign
+      state.message = 'hey';
     },
   },
 
   extraReducers: (builder) => {
     builder.addCase(fetchMessage.fulfilled, (state, action) => {
+      // eslint-disable-next-line no-param-reassign
       state.message = action.payload;
     });
   },
