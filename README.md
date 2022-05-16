@@ -2,9 +2,7 @@
 
 
 ## Built With
-
-- Ruby
-- Ruby on Rails
+- JavaScript
 - React
 - Redux
 
@@ -14,9 +12,7 @@
 
 ### Install
 
-- Ruby
-- Ruby on Rails
-- PostgresSQL
+- node 
 
 ### Local Copy
 
@@ -29,30 +25,22 @@ cd hello-rails-react
 
 ### How to Set up the project
 
-Installing  gems:
+### setup back-end
+
+[visit]("https://github.com/DelhinRharl/hello-rails-react-backend.git")
+
+Installing  nodes:
 
 ```
-bundle install
+npm install, or npm  i <packageName>
 ```
-
-Setting Up database:
-
-```
-rails db:create
-rails db:migrate
-```
-- Note: You might want to change the database configuration in the database.yml file
-
 ### Run
 
 Start server:
 
 ```
-rails server
+npm start
 ```
-
-Visit http://localhost:3000/ in your browser.
-
 ## Authors
 
 👤 **Affaxed Kiprotich**
