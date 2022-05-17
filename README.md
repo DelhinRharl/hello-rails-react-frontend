@@ -27,7 +27,7 @@ cd hello-rails-react
 
 ### setup back-end
 
-[visit](https://github.com/DelhinRharl/hello-rails-react-backend.git)
+[Link to the backend](https://github.com/DelhinRharl/hello-rails-react-backend.git)
 
 Installing  nodes:
 
